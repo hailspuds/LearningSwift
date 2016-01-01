@@ -35,8 +35,15 @@ var both = songs + songs2
 
 both += ["Trouble"]
 
-//dictionaries
+//dictionaries   - key/value
 
+var john_dict = ["name": "john", "dob": "march"]
+
+john_dict["dob"]
+
+//conditional statements
+
+//start from here: https://www.hackingwithswift.com/read/0/8/conditional-statements
 
 
 

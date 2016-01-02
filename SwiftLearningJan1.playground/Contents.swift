@@ -148,8 +148,57 @@ func getHaterStatus() -> String {
 
 //optionals
 
+//upto here: https://www.hackingwithswift.com/read/0/12/optionals
 
 
+
+
+func getHaterStatus(weather: String) -> String? {
+    if weather == "sunny" {
+        return nil
+    } else {
+        return "Hate"
+    }
+}
+
+func takeHaterAction(status: String) {
+    if status == "Hate" {
+        print("Hating")
+    }
+}
+
+if let status = getHaterStatus("sunny") {
+    takeHaterAction(status)
+}
+
+
+
+
+
+
+func yearAlbumReleased(name: String) -> Int? {
+    if name == "Taylor Swift" { return 2006 }
+    if name == "Fearless" { return 2008 }
+    if name == "Speak Now" { return 2010 }
+    if name == "Red" { return 2012 }
+    if name == "1989" { return 2014 }
+    
+    return nil
+}
+
+var year = yearAlbumReleased("Red")
+
+if year == nil {
+    print("There was an error")
+} else {
+    if let checkYear = year
+    {
+        print("It was released in \(checkYear)")
+    }
+}
+
+//https://www.hackingwithswift.com/read/0/13/optional-chaining
+//OPTIONAL CHAINING TIME EVERYONE!!!!!!!
 
 
 

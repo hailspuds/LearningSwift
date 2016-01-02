@@ -45,6 +45,80 @@ john_dict["dob"]
 
 //start from here: https://www.hackingwithswift.com/read/0/8/conditional-statements
 
+var trueFalse = false
+
+if trueFalse == true
+{
+    "this is true"
+}
+else
+{
+    "this is false"
+}
+
+//loops
+//taytay example
+
+var lyric = "Haters going to "
+
+for _ in 1 ... 5 {
+    lyric += "hate "
+}
+
+print (lyric)
+
+
+for song in songs
+{
+    print("My favourite song is \(song)")
+    
+}
+
+/* commented out because ... annoying!
+print (songs.count)
+
+var counter: Int
+counter = 1
+
+while true {
+    print ("The counter is at \(counter)")
+    ++counter
+    if counter == 567 {
+        break
+    }
+}
+*/
+
+//switch cases - should have learnt about these years ago!
+
+let numberOfAlbums: Int = 1
+
+switch numberOfAlbums {
+case 0:
+    print ("You're just starting out!")
+case 1:
+    print ("You just released iTunes Live From SoHo")
+case 2:
+    print ("Number 2")
+default:
+    print ("This is a default")
+}
+
+//now onto functions
+func myFavSong(song: String)
+{
+    print ("My favourite song is \(song)")
+}
+
+myFavSong("Shake it Off")
+
+
+
+
+
+
+
+
 
 
 

@@ -105,12 +105,52 @@ default:
 }
 
 //now onto functions
-func myFavSong(song: String)
+func myFavSong(song: String, number: Int)
 {
     print ("My favourite song is \(song)")
+    print ("And the number is \(number)")
 }
 
-myFavSong("Shake it Off")
+//apparently the first item in a function doesn't need a label.
+
+func testing123(year: Int, message: String)
+{
+    print(year)
+    print(message)
+}
+
+myFavSong("Shake it Off", number: 45)
+testing123(32, message: "hello hello hello")
+
+func isTayTayGreat(yesno: String) -> Bool
+{
+    if yesno == "yes"
+    {
+        return true
+    }
+    if yesno == "no"
+    {
+        return true
+    }
+    
+    //if nothing
+    return false
+}
+
+isTayTayGreat("no")
+
+//function with return = func NAME(vars) -> return {}    //boom!
+
+func getHaterStatus() -> String {
+    return "Hate"
+}
+
+
+//optionals
+
+
+
+
 
 
 

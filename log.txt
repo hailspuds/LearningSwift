@@ -1,0 +1,16 @@
+Log
+
+3jan
+structs, enums and started closes and inheritance
++ SwiftLearningJan1.playground
+
+2jan
+continued
++ SwiftLearningJan1.playground
+
+revised with apple swift book
++ PlaygroundAppleBook.playground
+
+1jan
+started project
++ SwiftLearningJan1.playground

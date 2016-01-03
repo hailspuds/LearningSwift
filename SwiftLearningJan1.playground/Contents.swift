@@ -141,38 +141,10 @@ isTayTayGreat("no")
 
 //function with return = func NAME(vars) -> return {}    //boom!
 
-func getHaterStatus() -> String {
-    return "Hate"
-}
-
 
 //optionals
 
 //upto here: https://www.hackingwithswift.com/read/0/12/optionals
-
-
-
-
-func getHaterStatus(weather: String) -> String? {
-    if weather == "sunny" {
-        return nil
-    } else {
-        return "Hate"
-    }
-}
-
-func takeHaterAction(status: String) {
-    if status == "Hate" {
-        print("Hating")
-    }
-}
-
-if let status = getHaterStatus("sunny") {
-    takeHaterAction(status)
-}
-
-
-
 
 
 
@@ -201,17 +173,68 @@ if year == nil {
 //OPTIONAL CHAINING TIME EVERYONE!!!!!!!
 
 
+func albumReleasedYear(year: Int) -> String? {
+    switch year {
+    case 2006: return "Taylor Swift"
+    case 2008: return "Fearless"
+    case 2010: return "Speak Now"
+    case 2012: return "Red"
+    case 2014: return "1989"
+    default: return nil
+    }
+}
+
+//The nil coalescing operator!!!
+// the ?? bit
+let album = albumReleasedYear(2006) ?? "unknown"
+print("The album is \(album.uppercaseString)")
 
 
+enum WeatherType {
+    case Sun
+    case Cloud
+    case Rain
+    case Wind(speed: Int)
+    case Snow
+}
 
 
+func getHaterStatus(weather: WeatherType) -> String? {
+    switch weather {
+    case .Sun:
+        return nil
+    case .Wind(let speed) where speed < 10:
+        return "meh"
+    case .Cloud, .Wind:
+        return "dislike"
+    case .Rain:
+        return "hate"
+    case .Snow:
+        return "cold"
+    }
+}
+
+getHaterStatus(.Cloud)
+getHaterStatus(.Sun)
+getHaterStatus(.Wind(speed: 30))
+getHaterStatus(.Snow)
 
 
+struct Person {
+    var clothes: String
+    var shoes: String
+}
 
+let taylor = Person(clothes: "T-shirt", shoes: "sneakers")
+let other = Person(clothes: "short skirts", shoes: "high heals")
 
+print(taylor.clothes)
+print(other.shoes)
 
+var taylorCopy = taylor
+taylorCopy.shoes = "flip flops"
 
-
-
+taylor
+taylorCopy
 
 

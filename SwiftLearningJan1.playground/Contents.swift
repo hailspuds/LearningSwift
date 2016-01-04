@@ -237,7 +237,9 @@ taylorCopy.shoes = "flip flops"
 taylor
 taylorCopy
 
-//up to https://www.hackingwithswift.com/read/0/16/classes
+//see next playground
+
+
 
 
 

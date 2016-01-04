@@ -26,7 +26,7 @@ class MasterViewController: UITableViewController {
                 objects.append(item)
             }
         }
-        //https://www.hackingwithswift.com/read/1/3/listing-images-with-nsfilemanager 
+        //https://www.hackingwithswift.com/read/1/4/introducing-interface-builder
         //upto there
 
     }

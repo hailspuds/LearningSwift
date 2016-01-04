@@ -3,7 +3,7 @@ Log
 4jan
 continued reading - classes
 + Playground2-day4.playground
-
++ added project1
 
 3jan
 structs, enums and started closes and inheritance

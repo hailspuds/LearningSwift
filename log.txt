@@ -1,5 +1,11 @@
 Log
 
+5jan
+it’s getting harder, rapidly.
+slow going. going through UIImage and UIImageView. Slowly. :)
+https://www.hackingwithswift.com/read/1/5/loading-images-with-uiimage
+
+
 4jan
 continued reading - classes
 + Playground2-day4.playground

@@ -1,5 +1,9 @@
 Log
 
+6jan
+finished cute and it works
+now i’ll need to go back and do it again
+
 5jan
 it’s getting harder, rapidly.
 slow going. going through UIImage and UIImageView. Slowly. :)

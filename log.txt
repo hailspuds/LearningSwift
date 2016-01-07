@@ -5,6 +5,8 @@ Log
 + calculator project
 finished project 1 with hackingwithswift.com
 
+* stanford video 1 complete. video 2 lesson here: https://www.youtube.com/watch?v=QLJtT7eSykg
+
 
 6jan
 finished cute and it works

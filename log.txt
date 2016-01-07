@@ -1,5 +1,11 @@
 Log
 
+7jan
+* started watching stanford class on iOS and swift https://www.youtube.com/watch?v=GOEPVM5OzJk
++ calculator project
+finished project 1 with hackingwithswift.com
+
+
 6jan
 finished cute and it works
 now i’ll need to go back and do it again

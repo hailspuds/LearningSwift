@@ -1,5 +1,11 @@
 Log
 
+8jan
+finished lecture 2 https://www.youtube.com/watch?v=QLJtT7eSykg
+will start lecture 3. will (hopefully) do the reading too
+calculator project committed to git - auto layout done and working
+LECTURE 3: https://www.youtube.com/watch?v=OJUsghbtbF8
+
 7jan
 * started watching stanford class on iOS and swift https://www.youtube.com/watch?v=GOEPVM5OzJk
 + calculator project

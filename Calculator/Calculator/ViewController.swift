@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     var userIsInTheMiddleOfTypingANumber = false
 
+    var brain = CalculatorBrain()
+    
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
         //unwrapping optionals here
@@ -31,42 +33,27 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operate(sender: UIButton) {
-        let operation = sender.currentTitle!
         if userIsInTheMiddleOfTypingANumber{
             enter()
         }
-        
-        switch operation {
-            case "×": performOperation { $0 * $1 }
-            case "÷": performOperation { $1 / $0 }
-            case "+": performOperation { $0 + $1 }
-            case "−": performOperation { $1 - $0 }
-            case "√": performOperation2 { sqrt($0) }
-            default: break
-        }
-        
-    }
-    
-    func performOperation(operation: (Double, Double) -> Double) {
-        if operandStack.count >= 2 {
-            displayValue = operation(operandStack.removeLast(), operandStack.removeLast())
-            enter()
+        if let operation = sender.currentTitle {
+            if let result = brain.performOperation(operation) {
+                displayValue = result
+            } else {
+                displayValue = 0
+            }
         }
     }
-
-    func performOperation2(operation: Double -> Double) {
-        if operandStack.count >= 1 {
-            displayValue = operation(operandStack.removeLast())
-            enter()
-        }
-    }
-    
-    var operandStack = Array<Double>()
     
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false
-        operandStack.append(displayValue)
-        print ("operandStack = \(operandStack)")
+        if let result = brain.pushOperand(displayValue) {
+            displayValue = result
+        } else {
+            displayValue = 0
+            // make this optional
+            // maybe an error message in the display
+        }
     }
     
     var displayValue: Double {

@@ -33,7 +33,12 @@ class ViewController: UIViewController {
         setDisplay = currentCount
     }
 
-    @IBAction func reset(sender: UIButton) {
+//    @IBAction func reset(sender: UIButton) {
+//        setDisplay = 0
+//        currentCount = 0
+//    }
+    
+    @IBAction func reset(sender: UIBarButtonItem) {
         setDisplay = 0
         currentCount = 0
     }
@@ -43,6 +48,9 @@ class ViewController: UIViewController {
     
     }
     
+    @IBAction func storeBarButton(sender: UIBarButtonItem) {
+        setStoreDisplay = currentCount
+    }
     
     var setDisplay: Int {
         get {

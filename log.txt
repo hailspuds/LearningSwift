@@ -1,5 +1,11 @@
 Log
 
+10jan
+finished lecture 2
+made first iOS app - counter
+added a few simple features to counter
+
+
 9jan
 https://www.youtube.com/watch?v=OJUsghbtbF8
 up to 1:07:40

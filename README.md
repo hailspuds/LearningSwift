@@ -12,7 +12,13 @@ My plan is to spend *at least* 20-30 minutes a day on Swift. In many cases, it'l
 
 There's no real structure to it. Just plod along through it all until I get a better handle of what to do, how and why.
 
-I'll try to keep a list of useful resources here too, as I go. I do document them in my commits (and code) but probably easier if I keep them in the README too :)
+# So what cool stuff do you have here?
+
+Um... nothing. Unless you like random Xcode projects. 
+
+The most useful thing will likely be the resources section below. 
+
+I'll try to keep a list as I go. I do document them in my commits (and sometimes code) but probably easier if I keep them in the README too :)
 
 ## Resouces
 

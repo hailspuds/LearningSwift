@@ -31,4 +31,4 @@ I'll try to keep a list as I go. I do document them in my commits (and sometimes
 * [The Swift Programming Language (Swift 2.1)](https://itunes.apple.com/us/book/swift-programming-language/id881256329) by Apple
 * [Hacking With Swift](https://www.hackingwithswift.com/)
  * [Intro to Swift](https://www.hackingwithswift.com/read/0/overview/)
-* [100 Days of Swift](http://samvlu.com/) and [100 Days of Swift - Medium](https://medium.com/@samvlu/100-days-of-swift-736d45a19b63#.vr1m47wtf)
+* [100 Days of Swift](http://samvlu.com/) and [100 Days of Swift - Medium](https://medium.com/@samvlu/100-days-of-swift-736d45a19b63)

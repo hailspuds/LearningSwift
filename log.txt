@@ -1,5 +1,14 @@
 Log
 
+9jan
+https://www.youtube.com/watch?v=OJUsghbtbF8
+up to 1:07:40
+getting confusing. time to read some more and head back to hackingwithswift
+learnt a fair bit about Xcode though, which is good. 
+also a bit more about auto layout.
+and also about MVC design. 
+
+
 8jan
 finished lecture 2 https://www.youtube.com/watch?v=QLJtT7eSykg
 will start lecture 3. will (hopefully) do the reading too

@@ -16,6 +16,8 @@ There's no real structure to it. Just plod along through it all until I get a be
 
 Um... nothing. Unless you like random Xcode projects. 
 
+There is a [gallery of projects](../Gallery) you could have a look at.
+
 The most useful thing will likely be the resources section below. 
 
 I'll try to keep a list as I go. I do document them in my commits (and sometimes code) but probably easier if I keep them in the README too :)

@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var display: UILabel!
+    @IBOutlet weak var storeDisplay: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,12 @@ class ViewController: UIViewController {
         currentCount = 0
     }
     
+    @IBAction func store(sender: UIButton) {
+        setStoreDisplay = currentCount
+    
+    }
+    
+    
     var setDisplay: Int {
         get {
             return NSNumberFormatter().numberFromString(display.text!)!.integerValue
@@ -44,6 +51,17 @@ class ViewController: UIViewController {
         
         set {
             display.text = "\(newValue)"
+        }
+    }
+    
+    var setStoreDisplay: Int {
+        get {
+            //return NSNumberFormatter().numberFromString(storeDisplay.text!)!.integerValue
+            return 0
+        }
+        
+        set {
+            storeDisplay.text = "\(newValue)"
         }
     }
 }

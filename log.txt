@@ -4,6 +4,8 @@ Log
 finished lecture 2
 made first iOS app - counter
 added a few simple features to counter
+finished tutorial 2 - flag game
+starting on to tutorial 3 - https://www.hackingwithswift.com/read/3/overview
 
 
 9jan

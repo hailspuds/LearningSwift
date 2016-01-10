@@ -13,22 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        //        countries.append("estonia")
-        //        countries.append("france")
-        //        countries.append("germany")
-        //        countries.append("ireland")
-        //        countries.append("italy")
-        //        countries.append("monaco")
-        //        countries.append("nigeria")
-        //        countries.append("poland")
-        //        countries.append("russia")
-        //        countries.append("spain")
-        //        countries.append("uk")
-        //        countries.append("us")
-        
-        
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
         
         //styling
@@ -39,9 +23,7 @@ class ViewController: UIViewController {
         button2.layer.borderColor = UIColor.lightGrayColor().CGColor
         button3.layer.borderColor = UIColor.lightGrayColor().CGColor
         
-        
         askQuestion(nil)
-    
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,7 +34,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
-    
     
     var countries = [String]()
     var correctAnswer = 0
@@ -81,9 +62,6 @@ class ViewController: UIViewController {
         let ac = UIAlertController(title: title, message: "Your score is \(score).", preferredStyle: .Alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .Default, handler: askQuestion))
         presentViewController(ac, animated: true, completion: nil)
- 
     }
-    
-
 }
 

@@ -3,6 +3,10 @@ Log
 11jan
 looked at a few courses - not sure what i’ll do there
 starting on to tutorial 3 - https://www.hackingwithswift.com/read/3/overview
+finished tutorial 3. unto number 4 now. promises it’ll soon get harder!
+started lecture 4 with iTunes u. it’s very very good.
+started with a udemy course too. it’s okay. it seems to have a lot of filler and unnecessary videos. hoping it’ll be useful for a ‘show how to do things’ kinda lesson, rather than theory on why.
+
 
 10jan
 finished lecture 2

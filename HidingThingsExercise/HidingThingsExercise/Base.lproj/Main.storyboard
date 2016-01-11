@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HidingThingsExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blueicon" translatesAutoresizingMaskIntoConstraints="NO" id="Q5x-hm-qMF">
+                                <rect key="frame" x="20" y="28" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="redicon" translatesAutoresizingMaskIntoConstraints="NO" id="Ouq-9v-FXU">
+                                <rect key="frame" x="340" y="28" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJA-GV-4He">
+                                <rect key="frame" x="251" y="285" width="99" height="30"/>
+                                <state key="normal" title="Hide Blue Icon"/>
+                                <connections>
+                                    <action selector="hideBlueIconButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zY0-B0-V5J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AG0-tf-Hg3">
+                                <rect key="frame" x="252" y="334" width="96" height="30"/>
+                                <state key="normal" title="Hide Red Icon">
+                                    <color key="titleColor" red="1" green="0.0030808288652094395" blue="0.005436743256487353" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideRedIconButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WtR-cI-aKQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q5x-hm-qMF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="3oO-cx-snl"/>
+                            <constraint firstItem="Ouq-9v-FXU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2:5" id="3p3-8r-Ip5"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Q5x-hm-qMF" secondAttribute="leading" id="4CC-pV-36Q"/>
+                            <constraint firstItem="Q5x-hm-qMF" firstAttribute="top" secondItem="Ouq-9v-FXU" secondAttribute="top" id="655-fi-c4C"/>
+                            <constraint firstItem="Ouq-9v-FXU" firstAttribute="leading" secondItem="Q5x-hm-qMF" secondAttribute="trailing" constant="80" id="DA2-O1-7Uz"/>
+                            <constraint firstItem="Q5x-hm-qMF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="LVs-W3-Qiq"/>
+                            <constraint firstItem="Q5x-hm-qMF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2:5" id="UJ6-AO-A6E"/>
+                            <constraint firstItem="Ouq-9v-FXU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="adx-qh-wAY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ouq-9v-FXU" secondAttribute="trailing" id="tb1-Xx-3CQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueIcon" destination="Q5x-hm-qMF" id="Ivh-0a-3fl"/>
+                        <outlet property="redIcon" destination="Ouq-9v-FXU" id="YW3-7q-j5w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueicon" width="256" height="256"/>
+        <image name="redicon" width="600" height="600"/>
+    </resources>
+</document>

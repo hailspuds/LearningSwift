@@ -1,5 +1,9 @@
 Log
 
+11jan
+looked at a few courses - not sure what i’ll do there
+starting on to tutorial 3 - https://www.hackingwithswift.com/read/3/overview
+
 10jan
 finished lecture 2
 made first iOS app - counter

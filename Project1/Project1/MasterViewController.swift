@@ -26,9 +26,6 @@ class MasterViewController: UITableViewController {
                 objects.append(item)
             }
         }
-        //https://www.hackingwithswift.com/read/1/4/introducing-interface-builder
-        //upto there
-
     }
 
     override func viewWillAppear(animated: Bool) {

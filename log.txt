@@ -1,5 +1,12 @@
 Log
 
+
+12jan
+a lot of reading of apple swift manual - very informative.
+about 1/2 to go. well worth it. it backed up and fills in the holes from the Stanford itunes u course.
+and it's very readable too. 
+
+
 11jan
 looked at a few courses - not sure what i’ll do there
 starting on to tutorial 3 - https://www.hackingwithswift.com/read/3/overview

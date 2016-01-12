@@ -28,6 +28,7 @@ I'll try to keep a list as I go. I do document them in my commits (and sometimes
  * [Lecture 1](https://www.youtube.com/watch?v=GOEPVM5OzJk)
  * [Lecture 2](https://www.youtube.com/watch?v=QLJtT7eSykg)
  * [Lecture 3](https://www.youtube.com/watch?v=OJUsghbtbF8)
+ * [Lecture 4](https://www.youtube.com/watch?v=KSkPE_-gBkc) - very interesting!
 * [The Swift Programming Language (Swift 2.1)](https://itunes.apple.com/us/book/swift-programming-language/id881256329) by Apple
 * [Hacking With Swift](https://www.hackingwithswift.com/)
  * [Intro to Swift](https://www.hackingwithswift.com/read/0/overview/)

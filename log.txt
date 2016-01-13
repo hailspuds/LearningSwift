@@ -1,5 +1,7 @@
 Log
 
+13jan
+reading (minimum amount) 
 
 12jan
 a lot of reading of apple swift manual - very informative.

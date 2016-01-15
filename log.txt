@@ -1,5 +1,10 @@
 Log
 
+15jan
+udemy lecture on functions and started auto layout
+
+
+
 14jan
 more reading - (again) on the plane
 very interesting. getting close to the end of it now.

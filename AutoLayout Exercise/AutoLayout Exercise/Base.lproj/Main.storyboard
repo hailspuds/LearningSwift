@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2pU-AQ-2db">
+                                <rect key="frame" x="0.0" y="20" width="600" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="mY9-sN-mGx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XpS-MT-MaJ">
+                                <rect key="frame" x="0.0" y="472" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.90700477909999999" blue="0.073121689749999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="p7b-Ih-vVg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KVv-lE-mJD">
+                                <rect key="frame" x="360" y="472" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.0030808288649999999" blue="0.0054367432559999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="SZR-Rg-9hI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2pU-AQ-2db" secondAttribute="trailing" constant="-20" id="9fh-ZR-WQx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KVv-lE-mJD" secondAttribute="trailing" constant="-20" id="HSB-a4-uua"/>
+                            <constraint firstItem="XpS-MT-MaJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="O2Y-FG-WY9"/>
+                            <constraint firstItem="2pU-AQ-2db" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Qan-I0-Fww"/>
+                            <constraint firstItem="2pU-AQ-2db" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="gqq-Sx-Neo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XpS-MT-MaJ" secondAttribute="bottom" id="kLy-pY-t2Q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KVv-lE-mJD" secondAttribute="bottom" id="mLn-gb-VKo"/>
+                            <constraint firstItem="2pU-AQ-2db" firstAttribute="leading" secondItem="XpS-MT-MaJ" secondAttribute="leading" multiplier="2" id="tyi-3o-Xv4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>

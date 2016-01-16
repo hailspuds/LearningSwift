@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblYourMultipleIs: UILabel!
     
     var multiple = 0
-    let numberOfAdditions = 5
-    
+    var currentSum = 0
+    var numberOfAdditions = 0
+    let maxNumberOfAdditions = 5
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -39,22 +41,31 @@ class ViewController: UIViewController {
         if txtMultipleInput.text != nil && txtMultipleInput.text != "" {
             hideOutlet(true, txtMultipleInputValue: true, btnPlayValue: true, btnAddValue: false, lblMultipleOutputValue: false, lblYourMultipleIsVaue: false)
             multiple = Int(txtMultipleInput.text!)!
+            lblMultipleOutput.text = "Press Add to add!"
             lblYourMultipleIs.text = "Your multiple is \(multiple)"
+            currentSum = 0
+            numberOfAdditions = 0
         }
     }
     
-    @IBAction func addToAdd(sender: UIButton) {
-        //get the mu
-        
-        
+    @IBAction func addToAdd(sender: UIButton) {        
+        //update the label with the current sum
+        if numberOfAdditions <= maxNumberOfAdditions {
+            runSums()
+            numberOfAdditions++
+        } else {
+            //end game
+            hideOutlet(false, txtMultipleInputValue: false, btnPlayValue: false, btnAddValue: true, lblMultipleOutputValue: true, lblYourMultipleIsVaue: true)
+        }
     }
     
     
-    
-    
-    
-    
-    
+    func runSums() {
+        let mathsSolution = currentSum + multiple
+        lblMultipleOutput.text = "\(currentSum) + \(multiple) = \(mathsSolution)"
+        currentSum = mathsSolution
+    }
+
     func hideOutlet (titleMultiplesValue: Bool, txtMultipleInputValue: Bool, btnPlayValue: Bool, btnAddValue: Bool, lblMultipleOutputValue: Bool, lblYourMultipleIsVaue: Bool) {
         titleMultiples.hidden = titleMultiplesValue
         txtMultipleInput.hidden = txtMultipleInputValue

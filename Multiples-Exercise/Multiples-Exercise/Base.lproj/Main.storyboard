@@ -93,7 +93,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addToMultiple" destination="p3R-xN-JR9" id="Kkv-5W-XHu"/>
                         <outlet property="btnAdd" destination="p3R-xN-JR9" id="4Xc-F3-7aw"/>
                         <outlet property="btnPlay" destination="GyW-eW-4dO" id="OWQ-zD-ubX"/>
                         <outlet property="lblMultipleOutput" destination="bBk-QQ-Rme" id="wj6-Lw-4dB"/>

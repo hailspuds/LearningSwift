@@ -40,6 +40,8 @@ class ViewController: UIViewController {
     @IBAction func startGame(sender: UIButton) {
         if txtMultipleInput.text != nil && txtMultipleInput.text != "" {
             hideOutlet(true, txtMultipleInputValue: true, btnPlayValue: true, btnAddValue: false, lblMultipleOutputValue: false, lblYourMultipleIsVaue: false)
+            
+            //will crash if there's text in the field!
             multiple = Int(txtMultipleInput.text!)!
             lblMultipleOutput.text = "Press Add to add!"
             lblYourMultipleIs.text = "Your multiple is \(multiple)"
@@ -48,7 +50,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func addToAdd(sender: UIButton) {        
+    @IBAction func addToAdd(sender: UIButton) {
         //update the label with the current sum
         if numberOfAdditions <= maxNumberOfAdditions {
             runSums()
@@ -58,7 +60,6 @@ class ViewController: UIViewController {
             hideOutlet(false, txtMultipleInputValue: false, btnPlayValue: false, btnAddValue: true, lblMultipleOutputValue: true, lblYourMultipleIsVaue: true)
         }
     }
-    
     
     func runSums() {
         let mathsSolution = currentSum + multiple
@@ -74,6 +75,5 @@ class ViewController: UIViewController {
         lblMultipleOutput.hidden = lblMultipleOutputValue
         lblYourMultipleIs.hidden = lblYourMultipleIsVaue
     }
-    
 }
 

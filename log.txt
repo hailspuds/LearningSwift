@@ -1,9 +1,13 @@
 Log
 
+
+
+16jan
+more udemy lectures. did the multiples exercise and ran through the tapper example.
+
+
 15jan
 udemy lecture on functions and started auto layout
-
-
 
 14jan
 more reading - (again) on the plane

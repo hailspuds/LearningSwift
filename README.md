@@ -33,5 +33,5 @@ I'll try to keep a list as I go. I do document them in my commits (and sometimes
 * [Hacking With Swift](https://www.hackingwithswift.com/)
  * [Intro to Swift](https://www.hackingwithswift.com/read/0/overview/)
  * Videos:
-  * [Get started with UIStackView in iOS 9](https://www.youtube.com/watch?v=UhbdIvD14HE)
+   * [Get started with UIStackView in iOS 9](https://www.youtube.com/watch?v=UhbdIvD14HE)
 * [100 Days of Swift](http://samvlu.com/) and [100 Days of Swift - Medium](https://medium.com/@samvlu/100-days-of-swift-736d45a19b63)

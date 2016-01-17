@@ -1,8 +1,11 @@
 Log
 
 17jan
-
-
+more udemy. time to take a break, it’s getting a bit annoying.
+stack layouts were interesting, but the lesson went too quickly and had mistakes in it.
+it needs more explaining, rather than just flying through it and making glib statements.
+might go back to hackingwithswift for a while, do a few projects over there. 
+also need to find a few more resources on stack layouts. i added one to the README file (it’s a hacking with swift video, giving a good history on it all)
 
 16jan
 more udemy lectures. did the multiples exercise and ran through the tapper example.

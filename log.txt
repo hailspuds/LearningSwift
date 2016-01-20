@@ -1,5 +1,8 @@
 Log
 
+20jan
+hackingwithswift - started project 4
+
 19jan
 basic reading
 more review

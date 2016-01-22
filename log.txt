@@ -1,5 +1,9 @@
 Log
 
+22jan
+
+21jan
+
 20jan
 hackingwithswift - started project 4
 unto: https://www.hackingwithswift.com/read/4/4/monitoring-page-loads-uitoolbar-and-uiprogressview

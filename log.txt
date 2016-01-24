@@ -1,6 +1,9 @@
 Log
 
 24jan
+Big day. After a few days of … minimal work I’ve just started on my first (proper) app. It’s simple. It’s just a usage meter for my ISP. I’ve got it connecting (over HTTPS), and bringing in an XML file. It then parses that file and updates the UI. At the moment, I think the process is a bit blocking though cause it takes a while (when it shouldn’t, case I can see the data straight away). Something to fix! 
+
+TO FIX: Blocking thread. It has some UI issue and then complains about auto-layout. Shouldn’t be too hard.
 
 23jan
 
